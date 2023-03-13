@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42.39" height="35.875" viewBox="0 0 42.39 35.875">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_118" data-name="Rectangle 118" width="42.39" height="35.875" transform="translate(720 1130)" fill="#d1d1d1" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_9" data-name="Mask Group 9" transform="translate(-720 -1130)" clip-path="url(#clip-path)">
+    <g id="YouTube-Icon-Almost-Black-Logo.wine" transform="translate(720.059 1130)">
+      <path id="Path_102" data-name="Path 102" d="M41.389,5.6a5.965,5.965,0,0,0-3.737-4.531C34.355,0,21.136,0,21.136,0S7.917,0,4.621,1.071A5.965,5.965,0,0,0,.883,5.6C0,9.6,0,17.938,0,17.938s0,8.339.883,12.336A5.965,5.965,0,0,0,4.621,34.8c3.3,1.071,16.515,1.071,16.515,1.071s13.219,0,16.516-1.071a5.966,5.966,0,0,0,3.737-4.531c.883-4,.883-12.336.883-12.336s0-8.339-.883-12.336" fill="#FF0000"/>
+      <path id="Path_103" data-name="Path 103" d="M95.968,64.266l11.049-7.571L95.968,49.124Z" transform="translate(-79.155 -38.757)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
+

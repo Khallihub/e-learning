@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="signup page of smart learn site" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Sign Up | Smart Learn</title>
+  </head>
+
+  <body
+    class="bg-light min-vh-100 min-vw-100 d-flex align-items-center justify-content-center overflow-hidden"
+  >
+    <div class="border border-secondary border-2">
+      <main class="d-flex flex-column align-items-center">
+        <div class="w-100 d-flex justify-content-end">
+          <a
+            class="m-1 btn btn-close btn-danger"
+            href="Welcome.html"
+            title="close"
+          ></a>
+        </div>
+        <div class="d-flex flex-column justify-content-center m-2 w-100">
+          <h1 class="text-center">Smart Learn</h1>
+          <div class="d-flex flex-wrap text-center justify-content-center">
+            <h2 class="border border-primary mx-4 px-3">
+              <a href="login.html"> Login</a>
+            </h2>
+            <h2 class="border border-primary border-4 mx-4 px-3">
+              <a href="signup.html"> Signup</a>
+            </h2>
+          </div>
+        </div>
+        <form id="form" class="w-100" action="login.html">
+          <div class="form-group m-3">
+            <label class="sr-only d-none" for="name">Name</label>
+            <div>
+              <input
+                class="form-control"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+              />
+              <div id="email-val"></div>
+            </div>
+          </div>
+          <div class="form-group m-3">
+            <label class="sr-only d-none" for="email">Email</label>
+            <div>
+              <input
+                class="form-control"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="email"
+                required
+              />
+              <div id="email-val"></div>
+            </div>
+          </div>
+          <div class="form-group m-3 mb-0">
+            <label class="sr-only d-none" for="password">Password</label>
+            <div>
+              <input
+                class="form-control mb-3"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="password"
+                required
+              />
+              <div id="password-val"></div>
+            </div>
+          </div>
+          <div class="form-group m-3 mb-0">
+            <label class="sr-only d-none" for="password">Re-enter Password</label>
+            <div>
+              <input
+                class="form-control mb-3"
+                type="password"
+                name="RE-enter-password"
+                id="Re-enter-password"
+                placeholder="Re-enter-password"
+                required
+              />
+              <button id="submit-btn" class="btn btn-primary mx-auto w-100" type="submit">
+                SIGN UP
+              </button>
+            </div>
+          </div>
+        </form>
+        <hr />
+        <h3>Or</h3>
+        <hr />
+        <div class="d-flex w-100 justify-content-evenly mb-4">
+          <div class="w-25">
+            <button class="btn btn-info w-100" title="sign up facebook">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17.641"
+                height="32.071"
+                viewBox="0 0 17.641 32.071"
+              >
+                <path
+                  id="facebook-f"
+                  d="M38.441,17.478l.863-5.623h-5.4V8.205c0-1.538.754-3.038,3.17-3.038h2.453V.38A29.913,29.913,0,0,0,35.177,0c-4.443,0-7.348,2.693-7.348,7.569v4.286H22.89v5.623h4.939V31.071h6.079V17.478Z"
+                  transform="translate(-22.39 0.5)"
+                  fill="#000000"
+                  stroke="#000000"
+                  stroke-width="1"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="w-25">
+            <button class="btn btn-danger w-100" title="sign up with google">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="31.57"
+                height="32.071"
+                viewBox="0 0 31.57 32.071"
+              >
+                <path
+                  id="google"
+                  d="M30.57,23.9c0,8.864-6.07,15.172-15.034,15.172A15.536,15.536,0,0,1,15.536,8a14.94,14.94,0,0,1,10.418,4.066l-4.228,4.066c-5.531-5.337-15.817-1.328-15.817,7.4a9.731,9.731,0,0,0,9.628,9.81c6.152,0,8.457-4.41,8.82-6.7h-8.82V21.305h14.79A13.619,13.619,0,0,1,30.57,23.9Z"
+                  transform="translate(0.5 -7.5)"
+                  fill="#000000"
+                  stroke="#000000"
+                  stroke-width="1"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="javascript/signup.js"></script>
+  </body>
+</html>
